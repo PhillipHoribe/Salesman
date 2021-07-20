@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Orders</title>
+</head>
+<body>
+	<h1>Orders</h1>
+	<a href="Salesman.html">Salesman</a>
+	<a href="Orders.html">Orders</a>
+	<a href="Customer.html">Customer</a>
+	<form action="OrdersServlet" method="post">
+		<table>
+			<tr>
+				<td>Order No:</td>
+				<td><input type="text" name="ord_no" /></td>
+			</tr>
+			<tr>
+				<td>Purchase:</td>
+				<td><input type="text" name="purch_amt" /></td>
+			</tr>			
+			<tr>
+				<td>Customer ID:</td>
+				<td><input type="text" name="customer_id" /></td>
+			</tr>
+			<tr>
+				<td>Order Date:</td>
+				<td><input type="text" name="ord_date" /></td>
+			</tr>
+			<tr>
+				<td>Salesman ID:</td>
+				<td><input type="text" name="salesman_id" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Save Order" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
